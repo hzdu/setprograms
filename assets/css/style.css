@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'cheltenham-normal-800';
+  src: url("../fonts/cheltenham-normal-800.ttf");
+}
+
+@font-face {
+  font-family: 'imperial-normal-700';
+  src: url("../fonts/imperial-normal-700.ttf");
+}
+
+body {
+  margin: 0 auto;
+  background: #F2F4F3;
+  font-family: "cheltenham-normal-800";
+}
+
+.clear {
+  clear: both;
+}
+
+.main {
+  margin: 0 auto;
+  width: 480px;
+}
+
+.java,
+.nodejs,
+.python {
+  background: #ffffff;
+  margin: 25px;
+  width: 90%;
+  -webkit-box-shadow: 5px 5px 5px #D9DCDF;
+          box-shadow: 5px 5px 5px #D9DCDF;
+}
+
+.java {
+  height: 100px;
+}
+
+.nodejs {
+  height: 240px;
+}
+
+.python {
+  height: 100px;
+}
+
+.cardtitle {
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #5A697D;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.cardtitle .cardline {
+  background: #DFE2E7;
+  height: 2px;
+  margin-top: 3px;
+}
+
+.cardtitle .cardcontent {
+  font-size: 12px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.buttonstyle, #downloadjdk, #setjdk, #downloadpython, #downloadanaconda, #downloadnodejs, #setglobalpath, #setnodejs {
+  border: 1px solid #FDAC41;
+  color: #FDAC41;
+  cursor: pointer;
+  float: left;
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: "imperial-normal-700";
+  height: 25px;
+  line-height: 25px;
+}
+
+.buttonstyle span, #downloadjdk span, #setjdk span, #downloadpython span, #downloadanaconda span, #downloadnodejs span, #setglobalpath span, #setnodejs span {
+  margin-left: 20px;
+}
+
+#downloadjdk {
+  width: 100px;
+}
+
+#setjdk {
+  width: 180px;
+}
+
+#downloadpython {
+  width: 120px;
+}
+
+#downloadanaconda {
+  width: 200px;
+}
+
+#downloadnodejs {
+  width: 120px;
+}
+
+#setglobalpath {
+  width: 220px;
+}
+
+#setnodejs {
+  width: 220px;
+}
+
+.info {
+  width: 100%;
+  height: 35px;
+  margin-top: 15px;
+}
+
+.info .infotitle {
+  float: left;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.info .infocontent {
+  float: left;
+  font-size: 14px;
+}
+
+.nodejstools {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.statusbar {
+  margin: 0 auto;
+  width: 100%;
+  height: 20px;
+  background: #E8EDF3;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+}
+
+.statusbar .author {
+  float: left;
+}
+
+.statusbar .content {
+  margin-left: 15px;
+  float: left;
+}
+/*# sourceMappingURL=style.css.map */

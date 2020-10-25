@@ -1,0 +1,34 @@
+{
+  "name": "setprogram",
+  "version": "1.0.0",
+  "description": "开发环境设置工具",
+  "main": "render\\main.js",
+  "scripts": {
+    "dev": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.du.app",
+    "productName": "开发环境设置工具",
+    "win": {
+      "icon": "build/application.ico",
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "allowToChangeInstallationDirectory": true
+    }
+  },
+  "author": "Mr.Do",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "10.1.3",
+    "electron-builder": "^22.9.1"
+  },
+  "dependencies": {
+    "regedit": "^3.0.3"
+  }
+}

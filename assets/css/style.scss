@@ -1,0 +1,155 @@
+$onepercent: 100%;
+
+@font-face{
+  font-family: 'cheltenham-normal-800';
+  src : url('../fonts/cheltenham-normal-800.ttf');
+}
+@font-face{
+  font-family: 'imperial-normal-700';
+  src : url('../fonts/imperial-normal-700.ttf');
+}
+
+body {
+  margin: 0 auto;
+  background: #F2F4F3;
+  font-family: "cheltenham-normal-800";
+}
+.clear{
+  clear: both;
+}
+
+.main{
+  margin: 0 auto;
+  width: 480px;
+}
+
+.java,
+.nodejs,
+.python {
+  background: #ffffff;
+  margin: 25px;
+  width: 90%;
+  box-shadow: 5px 5px 5px #D9DCDF;
+}
+.java{
+  height: 100px;
+}
+.nodejs{
+  height: 240px;
+}
+.python{
+  height: 100px;
+}
+.cardtitle{
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #5A697D;
+  width: $onepercent;
+  margin-bottom: 20px;
+  .cardline{
+    background: #DFE2E7;
+    height: 2px;
+    margin-top: 3px;
+  }
+  .cardcontent{
+    font-size: 12px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+}
+
+.buttonstyle{
+  border:1px solid #FDAC41;
+  color: #FDAC41;
+  cursor: pointer;
+  float: left;
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: "imperial-normal-700";
+  height: 25px;
+  line-height: 25px;
+  span{
+    margin-left: 20px;
+  }
+}
+
+#downloadjdk{
+  @extend .buttonstyle;  
+  width: 100px;
+}
+
+#setjdk{
+  @extend .buttonstyle;  
+  width: 180px;
+}
+
+#downloadpython{
+  @extend .buttonstyle;
+  width: 120px;
+}
+
+#downloadanaconda{
+  @extend .buttonstyle;
+  width: 200px;
+}
+
+#downloadnodejs{
+  @extend .buttonstyle;
+  width: 120px;
+}
+
+#setglobalpath{
+  @extend .buttonstyle;
+  width: 220px;
+}
+
+#setnodejs{
+  @extend .buttonstyle;
+  width: 220px;  
+}
+
+.info {
+  width: $onepercent;
+  height: 35px;
+  margin-top: 15px;
+  .infotitle {
+    float: left;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .infocontent {
+    float: left;
+    font-size: 14px;
+  }
+}
+
+.nodejstools{
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.statusbar, .content{
+
+}
+
+.statusbar{
+  margin: 0 auto;
+  width: $onepercent;
+  height: 20px;
+  background: #E8EDF3;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  .author{
+    float: left;
+  }
+  .content{
+    margin-left: 15px;
+    float: left;
+  }
+}

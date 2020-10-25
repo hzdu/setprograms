@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>开发环境设置工具 v1.0 Author:Mr.Du</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <body>
+        <div class="main">
+
+            <div class="java">
+                <div class="cardtitle">
+                    JAVA开发环境
+                    <div class="cardline"></div>
+                </div>
+                <div class="cardcontent">
+                    <div id="downloadjdk">
+                        <span>JDK下载</span>
+                    </div>
+                    <div id="setjdk">
+                        <span>设置JAVA环境变量</span>
+                    </div>
+                </div>
+            </div>
+            <div class="nodejs">
+                <div class="cardtitle">
+                    NodeJS开发环境
+                    <div class="cardline"></div>
+                </div>
+                <div class="cardcontent">
+                    <div id="downloadnodejs">
+                        <span>NodeJS下载</span>
+                    </div>
+                </div>
+    
+                <div class="clear"></div>
+    
+                <div class="info">
+                    <div class="infotitle">NodeJS全局包路径:</div>
+                    <div class="infocontent"></div>
+                </div>
+                <div id="setglobalpath">                
+                    <span>设置NodeJS全局包存放路径</span>
+                </div>
+    
+                <div class="clear"></div>
+    
+                <div class="nodejstools">
+                    <input type="checkbox" name="taobao" id="taobao">TAOBAO
+                    <input type="checkbox" name="cnpm" id="cnpm">CNPM
+                    <input type="checkbox" name="yarn" id="yarn">YARN
+                    <input type="checkbox" name="nrm" id="nrm">NRM
+                </div>
+                
+                <div id="setnodejs">
+                    <span>更换源/安装相关包管理工具</span>
+                </div>
+            </div>
+    
+            <div class="python">
+                <div class="cardtitle">
+                    Python开发环境
+                    <div class="cardline"></div>
+                </div>            
+                <div class="cardcontent">
+                    <div id="downloadpython">
+                        <span>Python下载</span>
+                    </div>
+                    <div id="downloadanaconda">
+                        <span>Anaconda集成开发环境</span>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="statusbar">
+                
+                <div class="author">
+                    欢迎使用环境设置工具,Author:<a id="aHrefs" href="https://author.chinalangd.com">Mr.Do</a>
+                </div>
+                <div class="content">
+                    状态：等待操作
+                </div>
+            </div>
+
+        </div>
+    </body>
+    <script src="render/main.js"></script>
+    <script src="render/require.js"></script>
+    <script src="render/nodejs.js"></script>
+    <script src="render/jdk.js"></script>
+    <script src="render/python.js"></script>
+</html>
