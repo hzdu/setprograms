@@ -3,8 +3,8 @@
 其实很久以前我就写过一个类似的JDK开发环境配置小工具发布在网上，那个工具是用Delphi写的，太久了，我都不知道代码让我放哪去了，不知道是不是在我那个忘记了的github上。汗~<br>
 后来有不少童鞋用各种语言翻录了那个小工具的功能，我在吾爱上见到的就有易语言、C++、VBS、DELPHI翻的，哈哈哈，好事<br>
 今天写这个是三个环境的，因为是打算捡一下的，开始没打算做UI的，看到最后我自己都有点不忍心就这样“裸”发布了，就给套了些CSS（SASS的，当然如果你跟我一样用SASS编译直接改那个CSS也是没问题的）<br>
-<img src="http://pic11.photophoto.cn/20090626/0036036341009653_b.jpg" width="50%" height="50%">
-编译：<br>
+<img src="https://repository-images.githubusercontent.com/307140448/c6b45a00-1721-11eb-9fe6-54d1f78643b7" width="50%" height="50%">
+<br>编译：<br>
 1、将代码Clone当硬盘上<br>
 2、终端里cd到源码目录里<br>
 3、<font color=#008000>npm init</font><br>
