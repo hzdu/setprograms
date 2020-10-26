@@ -11,6 +11,11 @@
 4、<font color=#008000>`npm run dev` / `electron .` </font>检查运行是否有错误<br>
 5、运行正常的情况下直接npm run build即可（考虑到很多童鞋用electron-build打包的时候因为网络有很多奇葩的问题，我做了一个.npmrc文件到项目根目录下设置了淘宝源）<br>
 <br>
-当然如果你不想花时间去编译，可以使用release目录下编译好的<br>
+当然如果你不想花时间去编译，可以下载编译好的(Windows二进制文件,MAC/LINUX还是需要自己编译一下)<br>
 1、https://wwa.lanzous.com/iFKiihr1hxa  ->  绿色版下载地址，解压即用<br>
 2、https://wwa.lanzous.com/i35ZChr1kfa -> 安装版<br>
+
+历史记录：
+|日期|更新说明|
+|2020.10.25|push代码到仓库|1.0|
+|2020.10.26|修改Windows下node-regedit的一个严重BUG，会导致系统环境变量不生效,改用系统自带的WMIC操作|
