@@ -16,6 +16,7 @@
 2、https://wwa.lanzous.com/i35ZChr1kfa -> 安装版<br>
 
 历史记录：<br>
-|日期|更新说明|
-|2020.10.25|push代码到仓库|1.0|
-|2020.10.26|修改Windows下node-regedit的一个严重BUG，会导致系统环境变量不生效,改用系统自带的WMIC操作|
+| 日期 | 更新说明 |
+| --- | --- |
+| 2020.10.25 | push代码到仓库 |
+| 2020.10.26 | 修改Windows下node-regedit的一个严重BUG，会导致系统环境变量不生效,改用系统自带的WMIC操作 |
