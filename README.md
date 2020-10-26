@@ -5,7 +5,7 @@
 后来有不少童鞋用各种语言翻录了那个小工具的功能，我在吾爱上见到的就有易语言、C++、VBS、DELPHI翻的，哈哈哈，好事<br>
 今天写这个是三个环境的，因为是打算捡一下的，开始没打算做UI的，看到最后我自己都有点不忍心就这样“裸”发布了，就给套了些CSS（SASS的，如果你不用SASS，直接改assets/css/style.css这个最终生成好的CSS也是没问题的）<br>
 <br>编译：<br>
-1、将代码Clone当硬盘上<br>
+1、将代码Clone到硬盘上<br>
 2、终端里cd到源码目录里<br>
 3、<font color=#008000>`npm init`</font><br>
 4、<font color=#008000>`npm run dev` / `electron .` </font>检查运行是否有错误<br>
