@@ -5,7 +5,7 @@
 后来有不少童鞋用各种语言翻录了那个小工具的功能，我在吾爱上见到的就有易语言、C++、VBS、DELPHI翻的，哈哈哈，好事<br>
 今天写这个是三个环境的，因为是打算捡一下的，开始没打算做UI的，看到最后我自己都有点不忍心就这样“裸”发布了，就给套了些CSS（SASS的，如果你不用SASS，直接改assets/css/style.css这个最终生成好的CSS也是没问题的）<br>
 <br>编译：<br>
-1、`npm init`<br>
+1、`npm i`<br>
 2、`npm run dev` / `electron .`（检查运行是否有错误）<br>
 3、`npm run build`（考虑到很多童鞋用electron-build打包的时候因为网络有很多奇葩的问题，我放了一个.npmrc文件到项目根目录下解决该问题）<br>
 <br>
