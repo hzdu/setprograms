@@ -1,4 +1,5 @@
 # NodeJS、JDK、Python开发环境设置工具<br>
+作者:MrD 主页:https://author.chinalangd.com<br>
 <img src="https://repository-images.githubusercontent.com/307140448/c6b45a00-1721-11eb-9fe6-54d1f78643b7" width="50%" height="50%"><br>
 一个用于设置NodeJS、JDK、Python开发环境的小工具，很久没写Javascript了，正好今天也没什么事，动动手捡一下怕忘记了。<br>
 其实很久以前我就写过一个类似的JDK开发环境配置小工具发布在网上，那个工具是用Delphi写的，太久了，我都不知道代码让我放哪去了，不知道是不是在我那个忘记了的github上。汗~<br>
